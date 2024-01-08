@@ -6,32 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <link rel="icon" type="image/xicon" href="favicon.jfif">
+    <style>
+        body{
+            background-color: rgb(29, 28, 28);
+            font-size: 22px;
+            color: rgb(135, 66, 199);
+        }
+    </style>
 </head>
-
 <body>
     <h2>Student form</h2>
     <!-- The 'for' attribute of the <label> tag should be equal to the 'id' attribute of the <input> element to bind them together. -->
     <form action="/Sigma web development/HTML/W3schools/received">
         <label for="fname">First name:</label>
         <input type="text" name="fname" id="fname" value="Aniket"><br>
+
         <label for="lname">Last name:</label>
         <input type="text" name="lname" id="lname" value="Ambat"><br>
+        
         <p>Choose your favorite Web language:</p>
+        
         <input type="radio" name="fav_lang" id="html" value="HTML">
         <label for="html">HTML</label><br>
+        
         <input type="radio" name="fav_lang" id="css" value="CSS">
         <label for="css">CSS</label><br>
+        
         <input type="radio" name="fav_lang" id="javascript" value="JAVASCRIPT">
         <label for="javascript">JAVASCRIPT</label><br>
+        
         <p>Choose your vehicles</p>
+        
         <input type="checkbox" name="vehicle1" id="vehicle1" value="Bike">
         <label for="vehicle1">I have a bike</label><br>
+        
         <input type="checkbox" name="vehicle2" id="vehicle2" value="Car">
         <label for="vehicle2">I have a car</label><br>
+        
         <input type="checkbox" name="vehicle3" id="vehicle3" value="Boat">
         <label for="vehicle3">I have a boat</label><br><br>
+        
         <input type="button" value="Button"><br>
+        
         <input type="submit" value="Submit"><br>
+        
         <label for="car">Choose a Car</label>
         <select name="cars" id="cars">
             <option value="volvo">Volvo</option>
@@ -39,9 +57,13 @@
             <option value="suzuki">Suzuki</option>
         </select>
         <!-- To define a pre-selected option, add the 'selected' attribute to the option: -->
+        
         <input type="submit"><br>
+        
         <textarea name="message" cols="30" rows="10">The cat is playing in the garden</textarea><br>
+        
         <button type="button" onclick="alert('Hello Parbhani!')">Click Me!</button>
+        
         <p>The datalist element specifies a list of pre-defined options for an input element.</p>
         <input list="browsers" name="browsers">
         <datalist id="browsers">
@@ -51,7 +73,9 @@
             <option value="Opera">
             <option value="Safari">
         </datalist>
+        
         <input type="submit">
+    
     </form>
     <!-- Don't Use <br> tag It is not recommeded -->
     <!-- Notice that each input field must have a name attribute to be submitted. -->

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice forms</title>
+    <style>
+        body{
+            background-color: rgb(29, 28, 28);
+            font-size: 22px;
+            color: rgb(135, 66, 199);
+        }
+    </style>
+</head>
+<body>
+    <h2>Student form</h2>
+    <form action="/Local-HTML/Practice codes/forms.html">
+
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="Aniket"> <br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="Ambat">
+        
+        <p>Choose your favorite language</p>
+        <input type="radio" id="html" name="fav_lang" value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="radio" id="css" name="fav_lang" value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="radio" id="javascript" name="fav_lang" value="JAVASCRIPT">
+        <label for="javascript">JAVASCRIPT</label>
+
+        <p>Choose your vehicle</p>
+        <input type="checkbox" id="vehicle1" name="vehicle" value="Car">
+        <label for="vehicle1">I have a car</label>
+
+        <input type="checkbox" name="vehicle" id="vehicle2" value="Bike">
+        <label for="vehicle2">I have a bike</label>
+
+        <input type="checkbox" name="vehicle" id="vehicle3" value="Boat">
+        <label for="vehicle3">I have a boat</label>
+
+        <input type="button" value="Button">
+
+        <input type="submit" value="Submit">
+
+        <textarea name="message" cols="30" rows="10">Practice code, code, code</textarea>
+
+        <label for="car">Choose a Car</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="maruti" selected>Muruti</option>
+            <option value="suzuki">Suzuki</option>
+        </select>
+        <!-- To define a pre-selected option, add the 'selected' attribute to the option: -->
+    </form>
+</body>
+</html>
