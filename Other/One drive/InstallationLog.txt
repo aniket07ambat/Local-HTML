@@ -1,0 +1,6 @@
+************************************* Invoked: Tue Dec 26 10:11:48 2023
+[0] Arguments: C:\Users\ambat\Downloads\msys2-x86_64-20230526.exe
+[14] Operations sanity check succeeded.
+[15] Warning: Cannot create lock file "C:\Users\ambat\AppData\Local\Temp\msys2-x86_64-202305261234865.lock": The file exists.
+ (0x00000050)
+[42] UnableToStart : Unable to start installer : Another msys2-x86_64-20230526 instance is already running. Wait until it finishes, close it, or restart your system.
